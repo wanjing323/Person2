@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "892803617382",
+    "firebase_url": "https://persons-f194f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "persons-f194f",
+    "storage_bucket": "persons-f194f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892803617382:android:4fb18b1a8494d5c3d7d3a7",
+        "android_client_info": {
+          "package_name": "my.edu.utar.person"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892803617382-nu2jh9mvhb501k59ltc1bn5tq24q2jn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHgw_qjY30Qvc-37_LmrywumSFaLJYknY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892803617382-nu2jh9mvhb501k59ltc1bn5tq24q2jn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

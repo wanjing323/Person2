@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="@color/app_color"
+    tools:context=".ui.main.MainFragment">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="Username"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"/>
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textAlignment="viewEnd"
+            android:text="Username"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/emailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="Email"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textAlignment="viewEnd"
+            android:text="Email"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phoneLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:text="Phone No."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"/>
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textAlignment="viewEnd"
+            android:text="Phone"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnLogout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/black"
+        android:padding="12dp"
+        android:background="@drawable/btn_bg"
+        android:textAlignment="center"/>
+
+</LinearLayout>
